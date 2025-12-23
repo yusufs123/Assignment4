@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background: #eee;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 6px 12px;
+    cursor: pointer;
+    
+}
+
+#statusMessage {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+#container {
+    margin-top: 15px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 6px;
+    background: wheat;
+    border: 1px solid gray;
+}
+
+.task.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task button {
+    margin-left: 5px;
+    background-color: blue;
+}
+
+.task button:last-child{
+    background-color: red;
+}
